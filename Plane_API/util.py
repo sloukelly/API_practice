@@ -1,4 +1,4 @@
-def filter_def search_flight(fid, flights):
+def search_flight(fid, flights):
 
     return [element for element in flights if element['flight_id'] == fid]
 
